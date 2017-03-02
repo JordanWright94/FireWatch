@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Fire Watch</title>
+		<link rel="stylesheet" href ="css/reset.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+		<script src="js/script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id ="container">
+			<header>
+				<div>
+					<a href="index.html" id="title"> Fire Watch </a>
+				</div>
+				<nav>
+						<ul>
+							<li> <a href= "index.html">  Map | </a> </li>
+							<li> <a href= "alerts.html">  Alerts | </a> </li>
+							<li> <a href="registration.html">  Register | </a> </li>
+						</ul>
+				</nav>
+				<br><br><br>
+			</header>
+			<div id="main">
+				<form method="post" id="searchbar">
+						<input type="text" name="search" id="search" placeholder="Suburb Search"/>
+				</form>
+				<iframe src="https://www.google.com/maps/d/embed?mid=1eUjl4d1KcCRfHG9ucoOsJPhkBaQ" id = "map"></iframe>
+				<div id="info">
+				<h1> Fire Danger Map </h1>
+				<br>
+				<p> use our interactive map to find the current fire danger rating in your area!</p>
+				<br>
+				<p> Green - Low -Moderate</p>
+				<p> Blue - High</p>
+				<p> Yellow - Very High</p>
+				<p> Orange - Severe</p>
+				<p> Red - Extreme </p>
+				<p> Red & Black Stripes - Catastrophic</p>
+				
+				</div>
+			</div>
+			<div id="space">
+			</div>
+			<footer>
+				<div id = "footerinfo">
+					<div class = "disclaimer">
+						<p> Disclaimer: Fire Watch does not accept any liability for any loss
+						or damage that may arise from the use or reliance of this data.</p>
+					</div>
+					<div class = "copyright">
+							<p> &#169; Copyright 2016 Fire Watch. All Rights Reserved </p>
+					</div>
+					<div class = "lastmod">
+						<p>Last Modified: 19 April 2016</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

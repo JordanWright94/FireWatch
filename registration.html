@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Fire Watch</title>
+		<link rel="stylesheet" href ="css/reset.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+		<script src="js/script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id ="container">
+			<header>
+				<div>
+					<a href="index.html" id="title"> Fire Watch </a>
+				</div>
+				<nav>
+						<ul>
+							<li> <a href= "index.html">  Map | </a> </li>
+							<li> <a href= "alerts.html">  Alerts | </a> </li>
+							<li> <a href="registration.html">  Register | </a> </li>
+						</ul>
+				</nav>
+				<br><br><br>
+			</header>
+			<div id="main">
+				<h1> Registration </h1>
+				<br>
+				<p id="error"></p>
+				<p> Register your email to get regular reports on the fire danger ratings in your chosen areas </p>
+				<form name="registration" action="#"  class="registration">
+					<input type="text" name="firstName" placeholder="First Name" id="firstName" required>
+					<input type="text" name="lastName" placeholder="Last Name" id="lastName" required>
+					<br>
+					<input type="text" name="email" placeholder="Email" id="email" required>
+					<br>
+					<p> Pick the areas you want to receive reports on! Use ctrl while selecting to choose multiple! </p>
+					<p> If you don't know your area use our interactive map! </p>  
+					<select id ="areas" required multiple>
+						<option value="northKinberleyCoast">North Kimberley Coast</option>
+						<option value="westKinberleyCoast">West Kimberley Coast</option>
+						<option value="kimberleyInland">Kimberley Inland</option>
+						<option value="eastPilbaraCoast">East Pilbara Coast</option>
+						<option value="westPilbaraCoast">West Pilbara Coast</option>
+						<option value="eastPilbaraInland">East Pilbara Inland</option>
+						<option value="ashburtonInland">Ashburton Inland</option>
+						<option value="exmouthGulfCoast">Exmouth Gulf Coast</option>
+						<option value="gascoyneCoast">Gascoyne Coast</option>
+						<option value="gascoyneInland">Gascoyne Inland</option>
+						<option value="goldfields">Goldfields</option>
+						<option value="eucla">Eucla</option>
+						<option value="northInterior">North Interior (WA)</option>
+						<option value="southInterior">South Interior (WA)</option>
+						<option value="costalCentralWestNorth">Coastal Central West - North</option>
+						<option value="inlandCentralWestNorth">Inland Central West - North</option>
+						<option value="costalCentralWestSouth">Coastal Central West - South</option>
+						<option value="inlandCentralWestSouth">Inland Central West - South</option>
+						<option value="lowerWestCoast">Lower West Coast</option>
+						<option value="lowerWestInland">Lower West Inland</option>
+						<option value="geographe">Geographe</option>
+						<option value="leeuwin">Leeuwin</option>
+						<option value="nelson">Nelson</option>
+						<option value="stirlingCoast">Stirling Coast</option>
+						<option value="stirlingInland">Stirling Inland</option>
+						<option value="ravensthorpeShireCoast">Ravensthorpe Shire Coast</option>
+						<option value="ravensthorpeShireInland">Ravensthorpe Shire Inland</option>
+						<option value="upperGreatSouthern">Upper Great Southern</option>
+						<option value="esperanceShireCoast">Esperance Shire Coast</option>
+						<option value="esperanceShireInland">Esperance Shire Inland</option>
+						<option value="roe">Roe</option>
+						<option value="beaufort">Beaufort</option>
+						<option value="lakes">Lakes</option>
+						<option value="mortlock">Mortlock</option>
+						<option value="ninghan">Ninghan</option>
+						<option value="avon">Avon</option>
+						<option value="jilbadgie">Jilbadgie</option>
+						<option value="peninsula">Peninsula</option>
+						<option value="gulfCountry">Gulf Country</option>
+						<option value="nothernGoldfieldsAndUpperFlinders">Northern Goldfields and Upper Flinders</option>
+						<option value="northTropicalCoastAndTablelands">North Tropical Coast and Tablelands</option>
+						<option value="herbertAndLowerBurdekin">Herbert and Lower Burdekin</option>
+						<option value="centralCoastWhitsundays">Central Coast and Whitsundays</option>
+						<option value="capricornia">Capricornia</option>
+						<option value="centralHighlandsCoalfields">Central Highlands and Coalfields</option>
+						<option value="centralWest">Central west (QLD)</option>
+						<option value="northWest">North West (Qld)</option>
+						<option value="channelCountry">Channel Country</option>
+						<option value="maranoaWarrego">Maranoa and Warrego</option>
+						<option value="darlingdownsGraniteBelt">Darling Downs and Granite Belt</option>
+						<option value="wideBayBurnett">Wide Bay and Burnett</option>
+						<option value="southeastCoast">Southeast Coast</option>
+						<option value="darwinAdelaideRiver">Darwin and Adelaide River</option>
+						<option value="northernFireProtectionArea">Northern Fire Protection Area</option>
+						<option value="dalySouth">Daly South</option>
+						<option value="tiwi">Tiwi</option>
+						<option value="arnhemWest">Arnhem West</option>
+						<option value="arnhemEast">Arnhem East</option>
+						<option value="katherineFireProtectionArea">Katherine Fire Protection Area</option>
+						<option value="capentariaWest">Capentaria West</option>
+						<option value="capentariaEast">Carpentaria East</option>
+						<option value="gregoryNorthWest">Gregory North West</option>
+						<option value="gregorySouthEast">Gregory South East</option>
+						<option value="barklyNorth">Barkly North</option>
+						<option value="barklySouth">Barkly South</option>
+						<option value="aliceSpringsFireProtectionArea">Alice Springs Fire Protection Area</option>
+						<option value="simpsonWest">Simpson West</option>
+						<option value="simpsonEast">Simpson East</option>
+						<option value="lasseterWest">Lasseter West</option>
+						<option value="lasseterEast">Lasseter East</option>
+						<option value="tanamiNorth">Tanami North</option>
+						<option value="tanamiSouth">Tanami South</option>
+						<option value="northWestPastoral">North West Pastoral</option>
+						<option value="northEastPastoral">North East Pastoral</option>
+						<option value="westCoast">West Coast (WA)</option>
+						<option value="easternEyrePeninsula">Eastern Eyre Peninsula</option>
+						<option value="lowerEyrePeninsula">Lower Eyre Peninsula</option>
+						<option value="flinders">Flinders</option>
+						<option value="midNorth">Mid North (WA)</option>
+						<option value="mountLoftyRanges">Mount Lofty Ranges</option>
+						<option value="adeliadeMetropolitan">Adelaide Metropolitan</option>
+						<option value="yorkePeninsula">Yorke Peninsula</option>
+						<option value="kangerooIsland">Kangaroo Island</option>
+						<option value="riverland">Riverland</option>
+						<option value="murrayLands">Murraylands</option>
+						<option value="upperSouthEast">Upper South East (WA)</option>
+						<option value="lowerSouthEast">Lower South East  (WA)</option>
+						<option value="mallee">Mallee</option>
+						<option value="wimmera">Wimmera</option>
+						<option value="northernCountry">Northern Country (VIC)</option>
+						<option value="northCentral">North Central (VIC)</option>
+						<option value="northEast">North East (VIC)</option>
+						<option value="southWest">South West (VIC)</option>
+						<option value="central">Central (VIC)</option>
+						<option value="westSouthGippsland">West and South Gippsland</option>
+						<option value="eastGippsland">East Gippsland</option>
+					</select>
+					<p> would you like to recieve reports daily or only when an alert is issued? </p>
+					<select id="report">
+						<option value="daily">Daily</option>
+						<option value="alertOnly">Alerts Only</option>
+					</select>
+					<br><input type="submit" value="Send" onClick="validateForm()" id="send">
+				</form>
+			</div>
+			<div id="space">
+			</div>
+			<footer>
+				<div id = "footerinfo">
+					<div class = "disclaimer">
+						<p> Disclaimer: Fire Watch does not accept any liability for any loss
+						or damage that may arise from the use or reliance of this data.</p>
+					</div>
+					<div class = "copyright">
+						<p> &#169; Copyright 2016 Fire Watch. All Rights Reserved </p>
+					</div>
+					<div class = "lastmod">
+						<p>Last Modified: 19 April 2016</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,182 @@
+/*sets up the background image,size of the white body and the font to be used throughout the website*/
+body{
+	background-color: #ffffff;
+	overflow-y: scroll;
+	font-size:18px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#container{
+	min-height: 100%;
+	position: relative;
+}
+/*sets up the header*/
+header{
+	background-color: #383838;
+	box-shadow: 2px 3px 2px orange;
+	padding-top: 10px;
+}
+/* sets the title of the site*/
+#title{
+	color: #ffffff;
+	float: left;
+	font-size: 40px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 30px;
+}
+nav{
+	float: right;
+padding-top: 12px;
+padding-right: 25px;
+}
+nav a{
+	text-decoration: none;
+	display: block; 
+	color: #ffffff;
+}
+nav li{
+	display: inline-block;
+	position: relative;
+}
+nav a:hover{
+	color: orange;
+}
+#main{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#main h1{
+	font-size: 30px;
+}
+#main h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+#main p{
+	font-size: 20px;
+	margin-left: 10px;
+}
+#alertPage button{
+	background-color: orange;
+	margin-bottom: 10px;
+	outline: none;
+	margin-left: 20px;
+}
+#alertPage button:focus{
+	outline: none;
+}
+#alertPage h1{
+	margin-bottom: 10px;
+}
+#alertPage p{
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+.state{
+	font-size:24px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#statusQld {
+	display: none;
+}
+#statusNsw {
+	display: none;
+}
+#statusVic {
+	display: none;
+}
+#statusTas {
+	display: none;
+}
+#statusNt {
+	display: none;
+}
+#statusSa {
+	display: none;
+}
+#statusWa {
+	display: none;
+}
+#firstName{
+	font-size: 18px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+#lastName{
+	font-size: 18px;
+	
+}
+#email{
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+#areas{
+	margin-top: 20px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+#error{
+	color: red;
+	margin-bottom: 10px;
+}
+#report{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	margin-left: 10px;
+}
+#send{
+	font-size: 18px;
+	margin-left: 10px;
+}
+#search{
+	font-size: 16px;
+	width: 660px;
+	margin-bottom: 4px;
+	
+}
+#map{
+	width: 660px;
+	height: 550px;
+}
+#info{
+	float: right;
+	padding-right: 10px;
+}
+#space{
+	padding: 10px;
+	padding-bottom: 100px;
+}
+footer{
+	background-color: #383838;
+	margin: 0px 0px 0px 0px;
+	color: #ffffff;
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	bottom: 0;
+}
+.disclaimer{
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.copyright{
+	text-align: center;
+	padding-top: 10px;
+}
+.lastmod{
+	text-align: right;
+}
+
